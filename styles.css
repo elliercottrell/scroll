@@ -1,0 +1,36 @@
+body {
+  font-family: "Andale Mono";
+  text-transform: uppercase;
+}
+
+main {
+  overflow-x: hidden;
+  display: flex;
+}
+
+h1 {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 100px;
+}
+
+section {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* section:nth-child(even) {
+  background-color: teal;
+  color: white;
+} */
+
+.block {
+  display: block;
+}
+
+img {
+  width: 500px;
+}
